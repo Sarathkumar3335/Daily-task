@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1</title>
+    <style>
+        table,th,td{
+            border: 2px solid gray;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1">
+    <h1>01. Application Form</h1>
+    <form>
+    <label >Name:</label>
+    <input type="text" id="name" placeholder="Enter your name..">
+    <br>
+    <br>
+    <label >Email:</label>
+    <input type="email" id="email" placeholder="Enter your email..">
+    <br>
+    <br>
+    <label >Gender:</label>
+    <input type="radio" class="gender" value="Male">Male
+    <input type="radio" class="gender" value="Female">Female
+    <input type="radio" class="gender" value="Male">Others
+    <br>
+    <br>
+    <label>CHOOSE SKILLS</label>
+    <br>
+    <br>
+    <label>Html</label>
+    <input type="checkbox" value="html" class="c-box">
+    <label>CSS</label>
+    <input type="checkbox" value="CSS" class="c-box">
+    <label>JS</label>
+    <input type="checkbox" value="html" class="c-box">
+    <label>BOOTSRAP</label>
+    <input type="checkbox" value="BOOTSRAP" class="c-box">
+    <label>REACT</label>
+    <input type="checkbox" value="REACT" class="c-box">
+    <br>
+    <br>
+    <label>Job Type</label>
+    <select>
+        <option class="opt" value="FRONDEND DEVELOPER">FRONDEND DEVELOPER</option>
+        <option class="opt" value="BACKDEND DEVELOPER">BACK DEVELOPER</option>
+    </select>
+    <br>
+    <br>
+    <label>Choose your browser from list</label>
+    <select>
+        <option class="browser" value="Chrome">Chrome</option>
+        <option class="browser" value="Edge">chrome</option>
+        <option class="browser" value="Firebox">Firebox</option>
+        <option class="browser" value="Safari">Safari</option>
+    </select>
+    <br>
+    <br>
+    <textarea id="description" rows="6" cols="30">Give a brief summary about you</textarea>
+    <br>
+    <br>
+    <input type="submit" value="submit" >
+    </form>
+    </div>
+<div class="box2">
+
+    <h1>Batch List</h1>
+    <ul style="list-style-type: square">
+        <li>SENCHOLA UNIVRSITY </li>
+        <ol>
+            <li>First Batch
+                <ol style="list-style-type: upper-alpha">
+                    <li>Ravi</li>
+                    <li>Manol</li>
+                    <li>Sandhiya</li>
+                </ol>
+            </li>
+            <li >Second Batch
+                <ol style="list-style-type: upper-roman">
+                    <li>Sundhar</li>
+                    <li>Saranya</li>
+                    <li>Nandhini</li>
+                </ol>
+            </li>
+            <li>Third Batch</li>
+            <ol style="list-style-type:lower-roman">
+                <li>Monka</li>
+                <li>Santhosh</li>
+                <li>Kannan</li>
+            </ol>
+        </ol>
+
+    </ul>
+</div>
+
+<div class="box3">
+    <table> 
+        <tr>
+            <th>S.NO 1</th>
+            <th>S.NO 2</th>
+            <th>S.NO 3</th>
+            <th>S.NO 4</th>
+
+        </tr>
+        <tr>
+            <td rowspan="2" >REACT JS</td>
+             <td >HTML</td>
+             <td rowspan="2">REACT JS</td>
+             <td>CSS</td>
+    </tr>
+        <tr>
+            <td>CSS</td>
+            <td>HTML</td>
+          
+        </tr>
+            <tr>
+                <td colspan="2">JAVASCRIPT </td>
+                <td colspan="2">BOOTSRAP</td>
+            </tr>
+    </table>
+    <table>    
+</div>
+</body>
+</html>
